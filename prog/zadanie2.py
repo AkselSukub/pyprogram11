@@ -21,5 +21,5 @@ def cylinder():
         print("Полная площадь цилиндра:", total_area)
     else:
         print("Некорректный выбор.")
-
-cylinder()
+if __name__ == "__main__":
+    cylinder()
