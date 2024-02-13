@@ -10,5 +10,6 @@ def multiply_until_zero():
         product *= num
     return product
 
-result = multiply_until_zero()
-print("Результат умножения:", result)
+if __name__ == "__main__":
+    result = multiply_until_zero()
+    print("Результат умножения:", result)
