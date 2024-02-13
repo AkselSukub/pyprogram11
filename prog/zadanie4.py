@@ -18,7 +18,8 @@ def print_int(value):
     print(value)
 
 # Основная программа
-input_value = get_input()
+if __name__ == "__main__":
+    input_value = get_input()
 
 if test_input(input_value):
     integer_value = str_to_int(input_value)
